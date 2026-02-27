@@ -119,9 +119,9 @@ def main():
     patch_tasks = [
         {
             "file": "AltA2dpConfig.exe",
-            "signature": "41 83 F9 07 0F 87 ?? ?? ?? ??",
-            "patch_offset": 4,
-            "patch_data": "0F 86",
+            "signature": "3B C8 7D 2D 41 83 F9 07 7F",  # Updated signature for current version
+            "patch_offset": 8,  # Points to the 7F byte
+            "patch_data": "7E",  # Change 7F (jg) to 7E (jle) - inverts the condition
         },
         {
             # Use os.path.join to correctly build the path to the driver
