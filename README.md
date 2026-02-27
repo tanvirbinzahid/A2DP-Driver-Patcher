@@ -1,5 +1,12 @@
-# AltA2DP Driver Patcher
 
+Support the dev and consider buying if you can
+
+Updated to support 1.8.2.1, use patcher.py /  exe is not updated
+
+Adios  
+
+
+# AltA2DP Driver Patcher
 ## Overview
 
 A simple AoB patcher for Alternative A2DP by Luculent. Modifies both `AltA2dpConfig.exe` and `AltA2DP.sys` to bypass license checks and make the program free to use beyond the trial period.
